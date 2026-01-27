@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <h1 class="maintitle">MON PREMIER SITE</h1>
+        <h1 class="maintitle" id="ancre">MON PREMIER SITE</h1>
 
         <img src="C:\Users\User\OneDrive\Images\marmotte.jpg">
             <!-- je ne sais pas comment deplacer mon image -->
@@ -49,8 +49,9 @@
 
          </ul>   
         <h4>Pour plus d'info:</h4>
-            <a href="https://www.larousse.fr/encyclopedie/vie-sauvage/marmotte/184045">Acceder à Marmotte larousse</a>
-           
+            <a class="lien" href="https://www.larousse.fr/encyclopedie/vie-sauvage/marmotte/184045">Acceder à Marmotte larousse</a><a class="lien" id="rhp" href="#ancre">Retour en haut de la page</a>
+            
+            <p><a href="untitled-page2.html#pc" target="_blank">Aller a la page 2</a></p>
 
     </body>
 
@@ -64,6 +65,11 @@
         {font-weight: bold;}    
     .contenue
         {font-weight: 100;}    
+    .lien
+        {font-style: italic;} 
+    #rhp
+        {position: relative;left: 80px;}
+        
     </style>
 
 </html>
