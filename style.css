@@ -1,17 +1,39 @@
  
         
      .maintitle
-        {color: rgb(5, 138, 12);}
-    .title, .lien
-        {color: rgba(206, 140, 65, 0.877);}
-    .soustitle
-        {font-weight: bold;}    
-    .contenue
-        {font-weight: 100;}    
+        {color: rgb(5, 138, 12);
+            font-size: 4em;
+                text-align: center;
+        }
+
+        #img{text-align: center;}
+        .title, .lien 
+        {color: rgba(206, 140, 65, 0.877);  
+        }
+
+            .soustitle
+             {font-weight: bold;
+             }  
+
+        h4 {font-size: 20px;} 
+
+                .contenue
+                {font-weight: 100;}  
+
     .lien
         {font-style: italic;} 
-    #rhp
-        {position: relative;left: 80px;}
+
+    
+
     .inred
-    {color: rgb(248, 18, 18);}   
-   
+    {color: rgb(248, 18, 18);
+    font-weight: 700;}  
+
+     body {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        }
+        #rhf{text-align: center;}
+        
