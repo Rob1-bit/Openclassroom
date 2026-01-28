@@ -2,7 +2,7 @@
         
      .maintitle
         {color: rgb(5, 138, 12);}
-    .title 
+    .title, .lien
         {color: rgba(206, 140, 65, 0.877);}
     .soustitle
         {font-weight: bold;}    
@@ -12,5 +12,6 @@
         {font-style: italic;} 
     #rhp
         {position: relative;left: 80px;}
-        
+    .inred
+    {color: rgb(248, 18, 18);}   
    
